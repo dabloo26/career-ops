@@ -74,7 +74,24 @@ If `data/applications.md` doesn't exist, create it:
 |---|------|---------|------|-------|--------|-----|--------|-------|
 ```
 
-#### Step 5: Ready
+#### Step 5: Get to know the user (important for quality)
+
+After the basics are set up, proactively ask for more context. The more you know, the better your evaluations will be:
+
+> "The basics are ready. But the system works much better when it knows you well. Can you tell me more about:
+> - What makes you unique? What's your 'superpower' that other candidates don't have?
+> - What kind of work excites you? What drains you?
+> - Any deal-breakers? (e.g., no on-site, no startups under 20 people, no Java shops)
+> - Your best professional achievement — the one you'd lead with in an interview
+> - Any projects, articles, or case studies you've published?
+>
+> The more context you give me, the better I filter. Think of it as onboarding a recruiter — the first week I need to learn about you, then I become invaluable."
+
+Store any insights the user shares in `config/profile.yml` (under narrative) or in `article-digest.md` if they share proof points. Update `modes/_shared.md` archetypes and framing if what they describe doesn't match the defaults.
+
+**After every evaluation, learn.** If the user says "this score is too high, I wouldn't apply here" or "you missed that I have experience in X", update your understanding. Adjust the framing in `_shared.md` or add notes to `profile.yml`. The system should get smarter with every interaction.
+
+#### Step 6: Ready
 Once all files exist, confirm:
 > "You're all set! You can now:
 > - Paste a job URL to evaluate it
