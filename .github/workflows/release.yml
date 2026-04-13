@@ -13,5 +13,6 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
-          release-type: node
+          release-type: simple
           package-name: career-ops
+          manifest-file: .release-please-manifest.json
